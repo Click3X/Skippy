@@ -1,0 +1,91 @@
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+.overlay-button{
+	z-index: 1;
+	cursor: pointer;
+	color: white;
+	font-family: "felt-tip-roman", "nunito", sans-serif;
+}
+.button-row{
+	position: absolute;
+	left: 0;
+	margin: 0 auto;
+	width: 300px;
+	right: 0;
+	z-index: 1;
+	&#top-buttons{
+		top: 40px;
+		.overlay-button{
+			&.gray{
+				color: #777;
+			}
+			&:hover{
+				color: $skippy-blue;
+			}
+			&.blue{
+				cursor: default;
+				color: $skippy-blue-dark;
+				&:hover{
+					color: $skippy-blue-dark;
+				}
+			}
+			&#tools{
+				float: left;
+			}
+			&#art-gallery{
+				float: right;
+			}
+		}
+	}
+	&#bottom-buttons{
+		bottom: 40px;
+		.overlay-button{
+			padding: 5px 10px;
+			border-radius: 5px;
+			background-color: $skippy-blue-light;
+			&#clear-it{
+				float: left;
+				margin-left: 60px;
+			}
+			&#frame-it{
+				float: right;
+				margin-right: 25px;
+			}
+			&:hover{
+				background-color: $skippy-blue;
+			}
+		}
+	}
+	#icon{
+		position: absolute;
+		left: 50%;
+		top: -20px;
+		z-index: -1;
+		&.icon-fork, &.icon-knife{
+			left: 51%;
+		}
+	}
+	.tool-size{
+		position: absolute;
+		top: 2px;
+		cursor: pointer;
+		width: 23px;
+		height: 23px;
+		&#tool-minus{
+			left: 38%;
+			background: url('../images/zoom-minus.png') no-repeat;
+			&:hover{
+				background: url('../images/zoom-minus-hover.png') no-repeat;
+			}
+		}
+		&#tool-plus{
+			right: 33%;
+			background: url('../images/zoom-plus.png') no-repeat;
+			&:hover{
+				background: url('../images/zoom-plus-hover.png') no-repeat;
+			}
+		}
+	}
+}

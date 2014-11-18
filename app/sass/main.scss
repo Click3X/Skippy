@@ -1,0 +1,123 @@
+@import "base";
+@import "views/_app.scss";
+@import "views/canvas.scss";
+@import "views/intro.scss";
+@import "views/tool.scss";
+@import "views/tools.scss";
+@import "views/gallery.scss";
+@import "views/galleryDetail.scss";
+@import "views/framing.scss";
+
+/* ----------------------------------------------------------------------------- *\
+   RESETS
+\* ----------------------------------------------------------------------------- */
+
+button,
+input,
+select {
+    color: $component-text-color;
+}
+
+::-moz-selection,
+::selection {
+    background: $selection-bg-color;
+    text-shadow: none;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    color: $component-text-color;
+    resize: vertical;
+}
+
+/* ----------------------------------------------------------------------------- *\
+   UTILITIES
+\* ----------------------------------------------------------------------------- */
+
+%clearfix {
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+%ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
+}
+
+.clearfix {
+    @extend %clearfix;
+}
+
+.ir {
+    @extend %ir;
+}
+
+/* ----------------------------------------------------------------------------- *\
+   GLOBAL LAYOUT
+\* ----------------------------------------------------------------------------- */
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font: $body-font;
+    font-weight: 400;
+    color: $body-font-color;
+    line-height: 1.5;
+    background: url('../images/bg/gallery.gif');
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------------------------------------------------------------------- *\
+   GLOBAL TYPOGRAPHY
+\* ----------------------------------------------------------------------------- */
+
+%a-shared {
+    text-decoration: none;
+    color: $link-color;
+}
+
+a {
+    @extend %a-shared;
+
+    &:visited {
+        @extend %a-shared;
+    }
+
+    &:hover,
+    &:active {
+        color: $link-hover-color;
+    }
+}

@@ -1,0 +1,57 @@
+.tool {
+	float: left;
+	width: 65px;
+	height: 350px;
+	cursor: pointer;
+	img{
+		position: absolute;
+		bottom: 50px;
+		height: 60%;
+	}
+	&#knife img, &#erase img{
+		padding-left: 10px;
+	}
+	&#fork img{
+		margin-left: -45px;
+	}
+	.symbol{
+		width: 100%;
+		.circle{
+			background-color: tan;
+			height: 20px;
+			width: 20px;
+			border-radius: 10px;
+			margin: 15px;
+			&.hover{
+				background-color: $skippy-blue;
+			}
+		}
+		.diagonal{
+			color: tan;
+			font-size: 36px;
+			transform: rotate(30deg);
+			margin: 0px 20px;
+			&.hover{
+				color: $skippy-blue;
+			}
+		}
+		.dot{
+			background-color: tan;
+			height: 6px;
+			width: 6px;
+			border-radius: 3px;
+			margin: 20px 3px;
+			float: left;
+			&.hover{
+				background-color: $skippy-blue;
+			}
+		}
+		.smooth{
+			color: tan;
+			margin: 10px 12px;
+			&.hover{
+				color: $skippy-blue;
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+#gallery-detail {
+	position: relative;
+	margin-top: 20px;
+	display: inline-block;
+	font-family: "felt-tip-roman", "nunito", sans-serif;
+	#close-detail{
+		position: absolute;
+		right: 0;
+		top: -30px;
+		color: $skippy-blue;
+		cursor: pointer;
+		&:hover{
+			color: $skippy-blue-dark;
+		}
+	}
+	.controls{
+		color: #777;
+		position: relative;
+		width: 100px;
+		margin: 10px auto;
+		div{
+			border-radius: 5px;
+			cursor: pointer;
+			position: absolute;
+			top: 0;
+			&#left{
+				border-bottom: 13px solid transparent;
+				border-right: 13px solid $skippy-blue;
+				border-top: 13px solid transparent;
+				left: 0;
+				&:hover{
+					border-right: 13px solid $skippy-blue-dark;
+				}
+			}
+			&#right{
+				border-bottom: 13px solid transparent;
+				border-left: 13px solid $skippy-blue;
+				border-top: 13px solid transparent;
+				right: 0;
+				&:hover{
+					border-left: 13px solid $skippy-blue-dark;
+				}
+			}
+		}
+	}
+	.social{
+		position: relative;
+		width: 150px;
+		height: 80px;
+		margin: 0 auto;
+		img{
+			width: 40px;
+			float: left;
+			margin-left: 7px;
+			cursor: pointer;
+		}
+	}
+}

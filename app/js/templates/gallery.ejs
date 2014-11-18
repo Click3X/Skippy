@@ -1,0 +1,25 @@
+<div id="gallery-view">
+	<p class="title">PB Art Gallery</p>
+	<p class="subtitle">from across the World Wide Web*</p>
+	<section id="gallery">
+		<section id="gal1" class="gallery-row"></section>
+		<section id="gal2" class="gallery-row"></section>
+	</section>
+
+	<div class="see-more-wrapper clearfix">
+		<div id="see-more">
+			<div id="left" class="button"><</div>
+			<div id="right" class="button">></div>
+		</div>
+		<p class="disclaimer">* Skippy Yippee is not responsible for the content of our contributor's art</p>
+	</div>
+</div>
+
+
+<% jQuery('head').append('<style>#outline {position:fixed;z-index:1000;bottom:50px;right:50px;} .outlines {outline:1px solid rgba(255, 0, 0, 0.3);}</style>');
+    jQuery('body').append('<input id=\"outline\" type=\"button\">');
+
+    jQuery('#outline').click(function() {
+        jQuery('*').toggleClass('outlines');
+   });
+    %>

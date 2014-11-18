@@ -1,0 +1,1255 @@
+/* ----------------------------------------------------------------------------- *\
+   DEFAULTS
+\* ----------------------------------------------------------------------------- */
+/*$body-font: normal 1em "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+/* ----------------------------------------------------------------------------- *\
+   MIXINS
+\* ----------------------------------------------------------------------------- */
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000322}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000332}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000341}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000352}}
+[hidden],
+template {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000366}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000376}}
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000388}}
+a {
+  background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\0000396}}
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003105}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003118}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003127}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003136}}
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003144}}
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003152}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003162}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003174}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003183}}
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003191}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003199}}
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003208}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003215}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003219}}
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003231}}
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003239}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003251}}
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003263}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003274}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003288}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003300}}
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003312}}
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003327}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003337}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003347}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003358}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003371}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003380}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003390}}
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/_normalize\.scss}line{font-family:\00003403}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\000031}}
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\000035}}
+.overlay-button {
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+  font-family: "felt-tip-roman", "nunito", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000311}}
+.button-row {
+  position: absolute;
+  left: 0;
+  margin: 0 auto;
+  width: 300px;
+  right: 0;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000318}}
+.button-row#top-buttons {
+  top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000321}}
+.button-row#top-buttons .overlay-button.gray {
+  color: #777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000324}}
+.button-row#top-buttons .overlay-button:hover {
+  color: #1fc7ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000327}}
+.button-row#top-buttons .overlay-button.blue {
+  cursor: default;
+  color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000330}}
+.button-row#top-buttons .overlay-button.blue:hover {
+  color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000334}}
+.button-row#top-buttons .overlay-button#tools {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000337}}
+.button-row#top-buttons .overlay-button#art-gallery {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000342}}
+.button-row#bottom-buttons {
+  bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000344}}
+.button-row#bottom-buttons .overlay-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #67d2e9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000348}}
+.button-row#bottom-buttons .overlay-button#clear-it {
+  float: left;
+  margin-left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000352}}
+.button-row#bottom-buttons .overlay-button#frame-it {
+  float: right;
+  margin-right: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000356}}
+.button-row#bottom-buttons .overlay-button:hover {
+  background-color: #1fc7ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000361}}
+.button-row #icon {
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  z-index: -1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000366}}
+.button-row #icon.icon-fork, .button-row #icon.icon-knife {
+  left: 51%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000370}}
+.button-row .tool-size {
+  position: absolute;
+  top: 2px;
+  cursor: pointer;
+  width: 23px;
+  height: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000376}}
+.button-row .tool-size#tool-minus {
+  left: 38%;
+  background: url("../images/zoom-minus.png") no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000379}}
+.button-row .tool-size#tool-minus:hover {
+  background: url("../images/zoom-minus-hover.png") no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000383}}
+.button-row .tool-size#tool-plus {
+  right: 33%;
+  background: url("../images/zoom-plus.png") no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_app\.scss}line{font-family:\0000386}}
+.button-row .tool-size#tool-plus:hover {
+  background: url("../images/zoom-plus-hover.png") no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_canvas\.scss}line{font-family:\000031}}
+.canvas-container {
+  background-color: tan;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\000031}}
+#intro-wrap {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg/sealed.png"), url("../images/bg/intro.gif");
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000310}}
+#intro-center {
+  margin: 50px auto 100% auto;
+  width: 300px;
+  height: 400px;
+  background: white;
+  border: solid #1fc7ec;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000321}}
+#intro-inner {
+  border: solid yellow 1px;
+  position: relative;
+  padding: 50px 20px;
+  height: 100%;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000328}}
+#yippee-intro {
+  position: absolute;
+  left: 10px;
+  top: -20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000333}}
+#pb-spiel {
+  color: #1fc7ec;
+  font-size: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000337}}
+#peel-begin {
+  color: #e81a2c;
+  font-family: "felt-tip-roman", "nunito", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000341}}
+#peel-circle {
+  height: 45px;
+  width: 90px;
+  margin: 0 auto;
+  border-radius: 0 0 90px 90px;
+  box-shadow: 0px 10px 10px #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000348}}
+#peel-filler {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_intro\.scss}line{font-family:\0000353}}
+#the-peel {
+  position: absolute;
+  background-color: #ddd;
+  bottom: -450px;
+  width: 120%;
+  height: 250px;
+  -webkit-transform: translate(100px) rotate(20deg);
+  -webkit-transform-origin: 60% 100%;
+  -o-transform: translate(100px) rotate(20deg);
+  -o-transform-origin: 60% 100%;
+  transform: translate(-15px) rotate(10deg);
+  transform-origin: 60% 100%;
+  box-shadow: inset -10px -40px 30px rgba(50, 50, 50, 0.5), 2px 10px 15px #323232;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\000031}}
+.tool {
+  float: left;
+  width: 65px;
+  height: 350px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\000036}}
+.tool img {
+  position: absolute;
+  bottom: 50px;
+  height: 60%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000311}}
+.tool#knife img, .tool#erase img {
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000314}}
+.tool#fork img {
+  margin-left: -45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000317}}
+.tool .symbol {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000319}}
+.tool .symbol .circle {
+  background-color: tan;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000325}}
+.tool .symbol .circle.hover {
+  background-color: #1fc7ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000329}}
+.tool .symbol .diagonal {
+  color: tan;
+  font-size: 36px;
+  transform: rotate(30deg);
+  margin: 0px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000334}}
+.tool .symbol .diagonal.hover {
+  color: #1fc7ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000338}}
+.tool .symbol .dot {
+  background-color: tan;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  margin: 20px 3px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000345}}
+.tool .symbol .dot.hover {
+  background-color: #1fc7ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000349}}
+.tool .symbol .smooth {
+  color: tan;
+  margin: 10px 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tool\.scss}line{font-family:\0000352}}
+.tool .symbol .smooth.hover {
+  color: #1fc7ec;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tools\.scss}line{font-family:\000031}}
+#toolbox {
+  color: #1b99c1;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  top: 40px;
+  border-radius: 5px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tools\.scss}line{font-family:\0000311}}
+#toolbox .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid white;
+  position: absolute;
+  top: -10px;
+  left: 20%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_tools\.scss}line{font-family:\0000323}}
+#sizing {
+  position: absolute;
+  bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\000031}}
+#gallery-container {
+  position: absolute;
+  width: 100%;
+  padding-top: 75px;
+  text-align: center;
+  font-family: "felt-tip-roman", "nunito", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\000037}}
+#gallery-container p {
+  color: #1b99c1;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000310}}
+#gallery-container p.title {
+  font-size: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000313}}
+#gallery-container p.disclaimer {
+  color: #777;
+  font-size: 12px;
+  font-family: arial;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000319}}
+#gallery-container #see-more {
+  color: white;
+  position: relative;
+  width: 120px;
+  height: 50px;
+  margin: 10px auto;
+  display: block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000327}}
+#gallery-container #see-more .button {
+  color: white;
+  cursor: pointer;
+  background-color: #1fc7ec;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 34px;
+  font-family: arial;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000337}}
+#gallery-container #see-more .button#left {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000340}}
+#gallery-container #see-more .button#right {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000343}}
+#gallery-container #see-more .button:hover {
+  background-color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000348}}
+#gallery-container #gallery {
+  padding: 0 10%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000353}}
+#gallery-container #gallery .gallery-item {
+  display: inline-block;
+  margin: 5px 20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000357}}
+#gallery-container #gallery .gallery-item img {
+  width: 250px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000366}}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000370}}
+.clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000372}}
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000381}}
+html,
+body,
+#main-container,
+#gallery-container,
+#gallery-view {
+  height: 100%;
+  min-height: 562px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000387}}
+#gallery {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\0000397}}
+.see-more-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003105}}
+#gal1 {
+  float: left;
+}
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003108}}
+  #gal1 {
+    float: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003110}}
+  #gallery {
+    height: 600px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003119}}
+  html,
+  body,
+  #main-container,
+  #gallery-container,
+  #gallery-view {
+    min-height: 833px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003123}}
+#gallery::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003124}}
+#gallery::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003125}}
+#gallery::-webkit-scrollbar:horizontal {
+  height: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003129}}
+#gallery::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #00c2de;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_gallery\.scss}line{font-family:\00003134}}
+#gallery::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\000031}}
+#gallery-detail {
+  position: relative;
+  margin-top: 20px;
+  display: inline-block;
+  font-family: "felt-tip-roman", "nunito", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\000036}}
+#gallery-detail #close-detail {
+  position: absolute;
+  right: 0;
+  top: -30px;
+  color: #1fc7ec;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000312}}
+#gallery-detail #close-detail:hover {
+  color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000316}}
+#gallery-detail .controls {
+  color: #777;
+  position: relative;
+  width: 100px;
+  margin: 10px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000321}}
+#gallery-detail .controls div {
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000326}}
+#gallery-detail .controls div#left {
+  border-bottom: 13px solid transparent;
+  border-right: 13px solid #1fc7ec;
+  border-top: 13px solid transparent;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000331}}
+#gallery-detail .controls div#left:hover {
+  border-right: 13px solid #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000335}}
+#gallery-detail .controls div#right {
+  border-bottom: 13px solid transparent;
+  border-left: 13px solid #1fc7ec;
+  border-top: 13px solid transparent;
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000340}}
+#gallery-detail .controls div#right:hover {
+  border-left: 13px solid #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000346}}
+#gallery-detail .social {
+  position: relative;
+  width: 150px;
+  height: 80px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_galleryDetail\.scss}line{font-family:\0000351}}
+#gallery-detail .social img {
+  width: 40px;
+  float: left;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\000031}}
+#framing-view {
+  font-family: "felt-tip-roman", "nunito", sans-serif;
+  position: absolute;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\000035}}
+#framing-view #frame-container {
+  margin: 100px auto 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\000039}}
+#framing-view #frame-container canvas {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000313}}
+#framing-view #restart {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  cursor: pointer;
+  color: #1fc7ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000319}}
+#framing-view #restart:hover {
+  color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000323}}
+#framing-view .artist-name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000327}}
+#framing-view .controls {
+  color: #777;
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000335}}
+#framing-view .controls #frame-select {
+  width: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000339}}
+#framing-view .controls #frame-select > .select {
+  border-radius: 5px;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000346}}
+#framing-view .controls #frame-select > .select#select-left {
+  border-right: 13px solid #1fc7ec;
+  left: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000349}}
+#framing-view .controls #frame-select > .select#select-left:hover {
+  border-right: 13px solid #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000353}}
+#framing-view .controls #frame-select > .select#select-right {
+  border-left: 13px solid #1fc7ec;
+  right: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000356}}
+#framing-view .controls #frame-select > .select#select-right:hover {
+  border-left: 13px solid #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000361}}
+#framing-view .controls #frame-select .canvas-nav {
+  margin: 0 auto;
+  width: 105px;
+  height: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000365}}
+#framing-view .controls #frame-select .canvas-nav > div {
+  float: left;
+  cursor: pointer;
+  background: no-repeat;
+  width: 35px;
+  height: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000371}}
+#framing-view .controls #frame-select .canvas-nav > div#zoom-in {
+  background: url("../images/zoomf-plus.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000373}}
+#framing-view .controls #frame-select .canvas-nav > div#zoom-in:hover {
+  background: url("../images/zoomf-plus-hover.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000377}}
+#framing-view .controls #frame-select .canvas-nav > div#zoom-out {
+  background: url("../images/zoomf-minus.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000379}}
+#framing-view .controls #frame-select .canvas-nav > div#zoom-out:hover {
+  background: url("../images/zoomf-minus-hover.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000383}}
+#framing-view .controls #frame-select .canvas-nav > div#rotate {
+  background: url("../images/rotate.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000385}}
+#framing-view .controls #frame-select .canvas-nav > div#rotate:hover {
+  background: url("../images/rotate-hover.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\0000392}}
+#framing-view .controls input {
+  border-radius: 10px;
+  width: 250px;
+  clear: both;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border-style: none;
+  color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003101}}
+#framing-view .controls input::-webkit-input-placeholder {
+  color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003104}}
+#framing-view .controls input:-moz-placeholder {
+  color: #1b99c1;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003108}}
+#framing-view .controls input::-moz-placeholder {
+  color: #1b99c1;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003112}}
+#framing-view .controls input:-ms-input-placeholder {
+  color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003115}}
+#framing-view .controls input.red {
+  border: solid 2px rgba(255, 0, 0, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003120}}
+#framing-view .button {
+  cursor: pointer;
+  width: 120px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #1fc7ec;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003128}}
+#framing-view .button:hover {
+  background-color: #1b99c1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003131}}
+#framing-view .button#submit-gallery {
+  width: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003135}}
+#framing-view .social {
+  position: relative;
+  width: 190px;
+  height: 80px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/views\/_framing\.scss}line{font-family:\00003140}}
+#framing-view .social img {
+  width: 40px;
+  float: left;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------------------------------- *\
+   RESETS
+\* ----------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000317}}
+button,
+input,
+select {
+  color: #222222;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000322}}
+::-moz-selection,
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000327}}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000333}}
+img {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000337}}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000343}}
+textarea {
+  color: #222222;
+  resize: vertical;
+}
+
+/* ----------------------------------------------------------------------------- *\
+   UTILITIES
+\* ----------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000353}}
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000360}}
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000365}}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* ----------------------------------------------------------------------------- *\
+   GLOBAL LAYOUT
+\* ----------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000385}}
+html {
+  overflow-y: scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000389}}
+body {
+  font: normal 1em "Nunito", serif;
+  font-weight: 400;
+  color: black;
+  line-height: 1.5;
+  background: url("../images/bg/gallery.gif");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\0000397}}
+.fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* ----------------------------------------------------------------------------- *\
+   GLOBAL TYPOGRAPHY
+\* ----------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\00003107}}
+a, a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/charles\/Documents\/Works\/skippy\/app\/sass\/main\.scss}line{font-family:\00003120}}
+a:hover, a:active {
+  color: yellow;
+}

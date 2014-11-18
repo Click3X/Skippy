@@ -1,0 +1,136 @@
+#gallery-container {
+	position: absolute;
+	width: 100%;
+	padding-top: 75px;
+	text-align: center;
+	font-family: "felt-tip-roman", "nunito", sans-serif;
+	p{
+		color: $skippy-blue-dark;
+		margin: 0;
+		&.title{
+			font-size: 36px
+		}
+		&.disclaimer{
+			color: #777;
+			font-size: 12px;
+			font-family: arial;
+		}
+	}
+	#see-more{
+		color: white;
+		position: relative;
+		width: 120px;
+		height: 50px;
+		margin: 10px auto;
+		display: block;
+		position: relative;
+		.button{
+			color: white;
+			cursor: pointer;
+			background-color: $skippy-blue;
+			width: 50px;
+			height: 50px;
+			border-radius: 10px;
+			font-size: 34px;
+			font-family: arial;
+			position: absolute;
+			&#left{
+				left: 0;
+			}
+			&#right{
+				right: 0;
+			}
+			&:hover{
+				background-color: $skippy-blue-dark;
+			};
+		}
+	}
+	#gallery{
+		padding: 0 10%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+		.gallery-item{
+			display: inline-block;
+			margin: 5px 20px;
+			cursor: pointer;
+			img{
+				width: 250px;
+			}
+		}
+	}
+}
+
+// CHARLES ADDITIONS
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after { clear: both; }
+
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+// HTML, BODY , WRAPPERS SET TO HEIGHT 100% to fill screen:
+html,
+body,
+#main-container,
+#gallery-container,
+#gallery-view {
+	height: 100%;
+	// min-height:562px;
+	min-height:562px;
+}
+
+#gallery {
+	position: absolute;
+	// height: 260px;
+	height:300px;
+	width:100%;
+	top:0; bottom:0; left:0; right:0;
+	margin:auto;
+}
+
+// NEW HTML WRAPPERS
+.see-more-wrapper {
+	margin:0 auto;
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+}
+
+// RESPONSIVE SLIDER ONLY ONE ROW TALL ON MOBILE DEVICES
+#gal1 { float:left; }
+
+@media(min-width: 768px) {
+	#gal1 { float:none; }	
+
+	#gallery { 
+		// height: 520px; 
+		height: 600px;
+	}
+	
+	html,
+	body,
+	#main-container,
+	#gallery-container,
+	#gallery-view { min-height: 833px; }
+}
+
+// SCROLL BAR STYLES
+#gallery::-webkit-scrollbar { -webkit-appearance: none; }
+#gallery::-webkit-scrollbar-track { background-color: #fff; }
+#gallery::-webkit-scrollbar:horizontal { 
+	height:18px;
+}
+
+#gallery::-webkit-scrollbar-thumb { 
+	border-radius: 8px;
+	background-color:#00c2de; 
+}
+
+#gallery::-webkit-scrollbar-track { 
+    background-color: #fff; 
+} 

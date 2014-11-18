@@ -1,0 +1,82 @@
+[
+	{
+		"landscape": "images/frame/01h.png",
+		"portrait": "images/frame/01v.png"
+	},
+	{
+		"landscape": "images/frame/02h.png",
+		"portrait": "images/frame/02v.png"
+	},
+	{
+		"landscape": "images/frame/03h.png",
+		"portrait": "images/frame/03v.png"
+	},
+	{
+		"landscape": "images/frame/04h.png",
+		"portrait": "images/frame/04v.png"
+	},
+	{
+		"landscape": "images/frame/05h.png",
+		"portrait": "images/frame/05v.png"
+	},
+	{
+		"landscape": "images/frame/06h.png",
+		"portrait": "images/frame/06v.png"
+	},
+	{
+		"landscape": "images/frame/07h.png",
+		"portrait": "images/frame/07v.png"
+	},
+	{
+		"landscape": "images/frame/08h.png",
+		"portrait": "images/frame/08v.png"
+	},
+	{
+		"landscape": "images/frame/09h.png",
+		"portrait": "images/frame/09v.png"
+	},
+	{
+		"landscape": "images/frame/10h.png",
+		"portrait": "images/frame/10v.png"
+	},
+	{
+		"landscape": "images/frame/11h.png",
+		"portrait": "images/frame/11v.png"
+	},
+	{
+		"landscape": "images/frame/12h.png",
+		"portrait": "images/frame/12v.png"
+	},
+	{
+		"landscape": "images/frame/13h.png",
+		"portrait": "images/frame/13v.png"
+	},
+	{
+		"landscape": "images/frame/14h.png",
+		"portrait": "images/frame/14v.png"
+	},
+	{
+		"landscape": "images/frame/15h.png",
+		"portrait": "images/frame/15v.png"
+	},
+	{
+		"landscape": "images/frame/16h.png",
+		"portrait": "images/frame/16v.png"
+	},
+	{
+		"landscape": "images/frame/17h.png",
+		"portrait": "images/frame/17v.png"
+	},
+	{
+		"landscape": "images/frame/18h.png",
+		"portrait": "images/frame/18v.png"
+	},
+	{
+		"landscape": "images/frame/19h.png",
+		"portrait": "images/frame/19v.png"
+	},
+	{
+		"landscape": "images/frame/20h.png",
+		"portrait": "images/frame/20v.png"
+	}
+]

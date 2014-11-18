@@ -1,0 +1,26 @@
+[
+	{
+		"name": "spoon",
+		"url": "images/tool-spoon.png",
+		"icon": "images/icon-spoon.png",
+		"symbol": "<div class=\"circle\"></div>"
+	},
+	{
+		"name": "knife",
+		"url": "images/tool-knife.png",
+		"icon": "images/icon-knife.png",
+		"symbol": "<div class=\"diagonal\">/</div>"
+	},
+	{
+		"name": "fork",
+		"url": "images/tool-fork.png",
+		"icon": "images/icon-fork.png",
+		"symbol": "<div class=\"dot\"></div><div class=\"dot\"></div><div class=\"dot\"></div><div class=\"dot\"></div>"
+	},
+	{
+		"name": "smooth",
+		"url": "images/tool-smooth.png",
+		"icon": "images/icon-smooth.png",
+		"symbol": "<div class=\"smooth\">erase</div>"
+	}
+]
