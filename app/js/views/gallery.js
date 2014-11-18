@@ -3,8 +3,7 @@ define([
     'underscore',
     'backbone',
     'views/abstract',
-    'templates',
-    'tinyscrollbar'
+    'templates'
 ], function($,
     _,
     Backbone,
