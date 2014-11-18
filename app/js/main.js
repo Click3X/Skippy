@@ -52,7 +52,7 @@ require.config({
         canvas2image: '../js/libs/vendor/canvas2image',
         base64: '../js/libs/vendor/base64',
         easel: '../js/libs/vendor/easeljs-0.7.1.min',
-        tinyscrollbar: '../js/libs/jquery.tinyscrollbar.min.js'
+        tinyscrollbar: '../js/libs/jquery.tinyscrollbar.min'
     }
 });
 

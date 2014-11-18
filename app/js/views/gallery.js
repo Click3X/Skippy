@@ -3,12 +3,14 @@ define([
     'underscore',
     'backbone',
     'views/abstract',
-    'templates'
+    'templates',
+    'tinyscrollbar'
 ], function($,
     _,
     Backbone,
     AbstractView,
-    JST) {
+    JST,
+    tinyscrollbar) {
 
     'use strict';
 

@@ -216,6 +216,7 @@ define([
                     this.galleryView.row2.append(galItemView.el);
                 }
             }
+            // this.galleryView.gallery.tinyscrollbar({axis: 'x'});
         },
 
         openFraming: function() {
